@@ -12,6 +12,7 @@ const mix = require('laravel-mix');
  */
 
 mix.js('resources/js/app.js', 'public/js')
+    .js('resources/js/custom/custom.js','public/js/custom.js')
     .sass('resources/sass/app.scss', 'public/css').version();
 
 mix.styles('node_modules/bootstrap/dist/css/custom.css','public/css/custom.css').version();

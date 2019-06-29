@@ -526,5 +526,27 @@ body {
     border-radius: 5px 0 0 5px;
 }
 
+.nav-item{
+    margin-left: 5px;
+    margin-right: 5px;
+    border:1px solid #4AA0FF;
+    border-radius: 15px;
+}
+.nav-item:hover{
+    background-color: #1d68a7;
+    color: #ffffff;
+}
+.sep{
+    height: 20px;
+    width: 2px;
+    background-color: grey;
+    position: relative;
+    top: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.signin{
+    border: 0;
+}
 
 
