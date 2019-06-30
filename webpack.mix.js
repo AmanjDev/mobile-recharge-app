@@ -13,6 +13,12 @@ const mix = require('laravel-mix');
 
 mix.js('resources/js/app.js', 'public/js')
     .js('resources/js/custom/custom.js','public/js/custom.js')
-    .sass('resources/sass/app.scss', 'public/css').version();
+    .js('node_modules/mdbootstrap/js/mdb.js','public/js/mdb.js')
+    .sass('node_modules/mdbootstrap/scss/mdb.scss','public/css/mdb.css')
+    .sass('resources/sass/app.scss', 'public/css')
+    .options({
+        processCssUrls:true
+    })
+    .version();
 
 mix.styles('node_modules/bootstrap/dist/css/custom.css','public/css/custom.css').version();

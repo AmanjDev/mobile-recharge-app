@@ -8,8 +8,11 @@
     <title>AutoCharge</title>
     <link type="text/css" rel="stylesheet" href="{{mix('css/app.css')}}">
     <link type="text/css" rel="stylesheet" href="{{mix('css/custom.css')}}">
+    <link type="text/css" rel="stylesheet" href="{{mix('css/mdb.css')}}">
     <script type="text/javascript" src="{{mix('js/app.js')}}"></script>
+    <script type="text/javascript" src="{{mix('js/mdb.js')}}"></script>
     <script type="text/javascript" src="{{mix('js/custom.js')}}"></script>
+
     @yield('head')
 </head>
 <body>

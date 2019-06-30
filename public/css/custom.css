@@ -526,27 +526,29 @@ body {
     border-radius: 5px 0 0 5px;
 }
 
-.nav-item{
-    margin-left: 5px;
-    margin-right: 5px;
-    border:1px solid #4AA0FF;
-    border-radius: 15px;
-}
-.nav-item:hover{
-    background-color: #1d68a7;
-    color: #ffffff;
-}
-.sep{
-    height: 20px;
-    width: 2px;
-    background-color: grey;
-    position: relative;
-    top: 10px;
-    margin-left: 5px;
-    margin-right: 5px;
-}
-.signin{
-    border: 0;
+
+
+
+
+
+/*
+Custom css
+*/
+.brand{
+    background: url("../images/reload.png");
+    height: 45px;
+    width: 45px;
 }
 
+.left-nav{
+    position: relative;
+    left: -300px;
+}
+
+.left-nav > .signup{
+    background-color: #5091F4;
+}
+.top{
+    margin-top: 50px;
+}
 

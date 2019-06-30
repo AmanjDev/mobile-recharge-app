@@ -34050,6 +34050,17 @@ return jQuery;
 
 /***/ }),
 
+/***/ "./node_modules/mdbootstrap/scss/mdb.scss":
+/*!************************************************!*\
+  !*** ./node_modules/mdbootstrap/scss/mdb.scss ***!
+  \************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+// removed by extract-text-webpack-plugin
+
+/***/ }),
+
 /***/ "./node_modules/popper.js/dist/esm/popper.js":
 /*!***************************************************!*\
   !*** ./node_modules/popper.js/dist/esm/popper.js ***!
@@ -49496,13 +49507,14 @@ __webpack_require__.r(__webpack_exports__);
 /***/ }),
 
 /***/ 0:
-/*!*************************************************************!*\
-  !*** multi ./resources/js/app.js ./resources/sass/app.scss ***!
-  \*************************************************************/
+/*!******************************************************************************************************!*\
+  !*** multi ./resources/js/app.js ./node_modules/mdbootstrap/scss/mdb.scss ./resources/sass/app.scss ***!
+  \******************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 __webpack_require__(/*! /var/www/html/CMS/resources/js/app.js */"./resources/js/app.js");
+__webpack_require__(/*! /var/www/html/CMS/node_modules/mdbootstrap/scss/mdb.scss */"./node_modules/mdbootstrap/scss/mdb.scss");
 module.exports = __webpack_require__(/*! /var/www/html/CMS/resources/sass/app.scss */"./resources/sass/app.scss");
 
 
